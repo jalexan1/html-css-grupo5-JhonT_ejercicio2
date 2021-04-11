@@ -1,0 +1,79 @@
+html {
+    background-color: goldenrod;
+}
+
+.container{
+    margin-top: 50px;
+    width: 100%;
+    border-top: 70px solid black;
+}
+
+.row{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.col-33{
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px 10px 0 0;
+    background-image: url('https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2017/02/futuro-clasico-alfa-romeo-4c.jpg?itok=E-iWOPaQ');
+    background-position: center;
+    background-size: 100%;
+    /*background-repeat: no-repeat;*/
+}
+
+.col-33-2{
+    background-image: url('https://www.eluniversal.com.mx/sites/default/files/2017/04/09/auto.jpg');
+}
+
+.col-33-3{
+    background-image: url('http://cde.2.trome.pe/ima/0/1/0/1/0/1010033.jpg');
+}
+
+.sub1{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.sub1 h2{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+.sub2{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sub2 a{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.sub2 a button{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    background-color: gray;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+
+.sub2 a button:hover{
+    background-color: black;
+    cursor: pointer;
+}
